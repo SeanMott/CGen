@@ -32,4 +32,4 @@ Theses flags can be hit and will not abort
 - -r || -r "true" || sets if the program should run after compiling, if not given it will by default
 
 # Building
-CGen uses Premake and a file is given with the source.
+CGen uses Premake and a project file is given with the source.

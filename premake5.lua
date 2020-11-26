@@ -3,6 +3,9 @@ project "CGen"
     kind "StaticLib"
     language "C++"
     
+    targetdir ("bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/%{prj.name}")
+    objdir ("bin-obj/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/%{prj.name}")
+
     files 
     {
         "src/**.h",
